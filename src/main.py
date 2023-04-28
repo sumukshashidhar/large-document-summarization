@@ -1,7 +1,7 @@
-import utils.read_env as env
+from utils.read_env import read_env as env
 
 def main():
-    values = env.read_env()
+    values = env()
     print(values)
 
 
